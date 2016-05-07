@@ -1,0 +1,15 @@
+{
+  "name": "passwordgen",
+  "version": "1.0.0",
+  "description": "Acadia University Computer Science assignment solution in JavaScript",
+  "main": "Password.js",
+  "scripts": {
+    "test": "node ./Password.test | tap-spec"
+  },
+  "author": "Dean Shi <dean.xiaoshi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  }
+}
