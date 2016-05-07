@@ -6,13 +6,7 @@ Originally, this is Acadia University Computer Science Java assignment. I implem
 Requirements
 ------------
 
-* node `v6.x.x +`
-
-
-Question
---------
-![question](./question.jpg)
-![testCases](./testCases.jpg)
+* node `v6.x.x`
 
 Setup and run test
 --------
@@ -21,3 +15,9 @@ Setup and run test
 npm install
 npm test
 ```
+
+Question
+--------
+![question](./question.jpg)
+![testCases](./testCases.jpg)
+
