@@ -1,22 +1,25 @@
+//
+// ES5 solution for nextPassword() and reset()
+//
 // class Password {
 //   chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 //   pwdArr = [];
-
+//
 //   constructor() {
 //     this.reset();
 //     this.generatePwd(this.pwdArr, this.chars);
 //   }
-
+//
 //   nextPassword() {
 //     return this.nextPwdPointer === this.pwdArr.length
 //       ? this.pwdArr[this.nextPwdPointer++]
 //       : '???';
 //   }
-
+//
 //   reset() {
 //     this.nextPwdPointer = 0;
 //   }
-
+//
 //   generatePwd(pwdArr, chars) {
 //     for (let i = 0; i < 26; i++) {
 //       for (let j = 0; j < 26; j++) {
